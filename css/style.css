@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    text-align: center;
+}
+
+.container {
+    width: 650px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.underlined {
+    color:#ef5839; 
+    text-decoration: underline;
+}
+
+/* Layout */
+
+.title-text {
+    background: #2e354f;
+    color: #fff;
+    padding: 10px 25px;
+    font-size: 36px;
+    width: 500px;
+    margin: 0 auto;
+    
+}
+
+.title-text,
+.section-title{
+    text-transform: uppercase;
+}
+
+/* Buttons */
+.btn {
+    background: #ef5839;
+    text-decoration: none;
+    padding: 10px 25px;
+    color: white;
+    font-weight: 900;
+    display: inline-block;
+    margin: 20px;
+}
+
+.btn:hover,
+.btn:focus {
+    background: #d4b44c;
+    color: #2e354f;
+}
+
+
+/* **Other Information**:
+ - Hovered button background color: #d4b44c
+ - Hovered button text color: #2e354f */
